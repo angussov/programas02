@@ -25,4 +25,9 @@ public class ApiController {
 	public String t3() {
 		return "Aki é o T3 alterado direto no GitHub!";
 	}
+	
+	@GetMapping("/t4")
+	public String t4() {
+		return "Primeira mudanca na Branch nova !!!!";
+	}
 }
